@@ -1,0 +1,81 @@
+/* Основной акцентный цвет */
+:root {
+  --accent: #33b7bc;
+  --accent-dark: #109e9e;
+}
+
+/* ======== Button / Primary ======== */
+.btn-primary {
+  background: var(--accent);
+  color: #fff;
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+  border: 1px solid transparent;
+}
+.btn-primary:hover {
+  background: var(--accent-dark);
+  box-shadow: 0 4px 20px rgba(51, 183, 188, 0.3);
+}
+.btn-primary:focus {
+  outline: 2px solid #fff;
+  box-shadow: 0 0 0 4px rgba(51, 183, 188, 0.4);
+}
+.btn-primary:disabled {
+  background: #3b3b3b;
+  color: #777;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+/* ======== Button / Secondary ======== */
+.btn-secondary {
+  background: transparent;
+  border: 1px solid var(--accent);
+  color: var(--text);
+  padding: 16px 32px;
+  border-radius: 8px;
+  font-weight: 700;
+  transition: all 0.2s ease;
+}
+.btn-secondary:hover {
+  background: var(--accent);
+  color: #fff;
+}
+.btn-secondary:focus {
+  outline: 2px solid #fff;
+}
+.btn-secondary:disabled {
+  border-color: #444;
+  color: #666;
+}
+
+/* ======== Text Inputs ======== */
+.input-field {
+  background: #2a272a;
+  border: 1px solid transparent;
+  padding: 20px;
+  border-radius: 10px;
+  color: var(--text);
+  width: 100%;
+  outline: none;
+  transition: all 0.2s;
+}
+.input-field::placeholder {
+  color: #6f6f6f;
+}
+.input-field:hover {
+  border-color: #555;
+}
+.input-field:focus {
+  border-color: var(--accent);
+  background: #1d1c1d;
+}
+.input-field--error {
+  border-color: #e74c3c;
+}
+.input-field--disabled {
+  opacity: 0.5;
+  pointer-events: none;
+}

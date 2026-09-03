@@ -37,3 +37,19 @@
 .contact-request-form button:hover {
   background: var(--accent-dark);
 }
+.input-error {
+  border: 1px solid #ff4444 !important;
+}
+
+.form-msg {
+  margin-top: -8px;
+  font-size: 14px;
+}
+
+.form-msg--success {
+  color: #4caf50;
+}
+
+.form-msg--error {
+  color: #ff4444;
+}
