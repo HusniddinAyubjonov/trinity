@@ -1,0 +1,39 @@
+.contact-request-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.contact-request-form input,
+.contact-request-form textarea {
+  background: #2a272a;
+  border: none;
+  border-radius: 10px;
+  padding: 22px 24px;
+  color: var(--text);
+  font-size: 17px;
+  font-family: inherit;
+  outline: none;
+  resize: none;
+}
+
+.contact-request-form input::placeholder,
+.contact-request-form textarea::placeholder {
+  color: var(--text-muted-2);
+}
+
+.contact-request-form button {
+  align-self: flex-start;
+  margin-top: 8px;
+  background: var(--accent);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 18px;
+  padding: 20px 40px;
+  border-radius: 10px;
+  transition: background 0.2s;
+}
+
+.contact-request-form button:hover {
+  background: var(--accent-dark);
+}

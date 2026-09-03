@@ -1,0 +1,96 @@
+{
+  "header": {
+    "nav": {
+      "cars": "Автомобили",
+      "yachts": "Яхты",
+      "chauffeur": "Шофёр"
+    }
+  },
+  "hero": {
+    "title": "Дубай",
+    "subtitle": "аренда люксовых авто"
+  },
+  "popular": {
+    "heading": "Популярное",
+    "searchPlaceholder": "Поиск авто",
+    "viewAll": "Смотреть все",
+    "rent": "Аренда {{name}}",
+    "rentFromAed": "Аренда от, aed",
+    "perDay": "в сутки",
+    "tabs": {
+      "specialOffer": "Спецпредложение",
+      "newCar": "Новые авто",
+      "mostPopular": "Популярные",
+      "daily": "Посуточно"
+    }
+  },
+  "carCatalog": {
+    "rent": "Арендовать",
+    "viewAll": "Смотреть все"
+  },
+  "about": {
+    "title": "О нас",
+    "stats": {
+      "year": "лет",
+      "cars": "машин",
+      "people": "человек",
+      "text": "Мы прошли большой путь от компании из 2 человек до победы на Webby's."
+    },
+    "quote": "Я занимаюсь автомобилями уже более 18 лет. Моя страсть к машинам и внимание к деталям сделают ваш опыт работы с нами безупречным. Гарантированно.",
+    "authorName": "Кирилл Алиев, MBA",
+    "authorRole": "CEO Trinity car rental boutique"
+  },
+  "reviews": {
+    "title": "Отзывы"
+  },
+  "advantages": {
+    "title": "Преимущества",
+    "items": [
+      "40+ уникальных автомобилей в нашем автопарке",
+      "Доставка и возврат авто по Дубаю 24/7",
+      "Страхование без франшизы на каждый автомобиль",
+      "Никакой видео- и аудиозаписи в салоне",
+      "Техническая поддержка 24/7",
+      "Все модели с премиальным пакетом опций"
+    ]
+  },
+  "brandsMarquee": {
+    "brands": ["Lexus", "Mercedes", "Audi", "BMW", "Rolls-Royce", "Cadillac", "Maserati", "Lamborghini", "Bentley", "Porsche"]
+  },
+  "discount": {
+    "title": "Скидка до 60%",
+    "text": "Получайте свежие статьи и новости бизнеса, которые нужно знать, а также специальные рекомендации каждую неделю.",
+    "emailPlaceholder": "Ваш email",
+    "receive": "Подписаться"
+  },
+  "contact": {
+    "title": "Остались вопросы?",
+    "name": "Имя",
+    "email": "E-mail",
+    "phone": "+7 (999) 999 - 99 - 99",
+    "message": "Сообщение",
+    "send": "Отправить заявку"
+  },
+  "footer": {
+    "forCustomers": "Клиентам",
+    "aboutUs": "О нас",
+    "conditions": "Условия",
+    "testimonials": "Отзывы",
+    "articles": "Статьи",
+    "contacts": "Контакты",
+    "carListTitle": "Автомобили",
+    "suvs": "Внедорожники",
+    "convertibles": "Кабриолеты",
+    "sportsCars": "Спорткары",
+    "premium": "Премиум",
+    "coupe": "Купе",
+    "service": "Сервис",
+    "yachtList": "Яхты",
+    "chauffeur": "Шофёр",
+    "address": "ОАЭ, Дубай, Аль-Кувайз, 3-я промышленная зона, ул. 4-я, 24",
+    "emailPlaceholder": "Введите ваш E-mail",
+    "submit": "Отправить",
+    "privacyPolicy": "Политика конфиденциальности",
+    "copyright": "©2023 TRINITY. Все права защищены"
+  }
+}

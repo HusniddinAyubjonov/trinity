@@ -1,0 +1,56 @@
+.city-select {
+  position: relative;
+}
+
+.city-select__btn {
+  background: none;
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.2s;
+}
+
+.city-select__btn:hover {
+  color: var(--accent);
+}
+
+.city-select__caret {
+  width: 10px;
+  height: 6px;
+  transition: transform 0.2s;
+}
+
+.city-select__caret.is-up {
+  transform: rotate(180deg);
+}
+
+.city-select__dropdown {
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 0;
+  background: #1f1f1f;
+  border-radius: 8px;
+  padding: 8px 0;
+  min-width: 140px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.5);
+  z-index: 10;
+}
+
+.city-select__dropdown button {
+  width: 100%;
+  text-align: left;
+  background: none;
+  color: var(--text);
+  font-size: 15px;
+  font-weight: 500;
+  padding: 8px 18px;
+  transition: color 0.2s;
+}
+
+.city-select__dropdown button:hover,
+.city-select__dropdown button.is-active {
+  color: var(--accent);
+}

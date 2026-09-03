@@ -1,0 +1,96 @@
+{
+  "header": {
+    "nav": {
+      "cars": "Fahrzeuge",
+      "yachts": "Yachten",
+      "chauffeur": "Chauffeur"
+    }
+  },
+  "hero": {
+    "title": "Dubai",
+    "subtitle": "Luxusautovermietung"
+  },
+  "popular": {
+    "heading": "Am beliebtesten",
+    "searchPlaceholder": "Auto suchen",
+    "viewAll": "Alle anzeigen",
+    "rent": "{{name}} mieten",
+    "rentFromAed": "Miete ab, AED",
+    "perDay": "pro Tag",
+    "tabs": {
+      "specialOffer": "Sonderangebot",
+      "newCar": "Neuwagen",
+      "mostPopular": "Beliebt",
+      "daily": "Tagesmiete"
+    }
+  },
+  "carCatalog": {
+    "rent": "Mieten",
+    "viewAll": "Alle anzeigen"
+  },
+  "about": {
+    "title": "Über uns",
+    "stats": {
+      "year": "Jahre",
+      "cars": "Autos",
+      "people": "Mitarbeiter",
+      "text": "Wir haben einen weiten Weg zurückgelegt – von einem Zwei-Personen-Unternehmen bis zum Gewinn eines Webby Awards."
+    },
+    "quote": "Ich beschäftige mich seit über 18 Jahren mit Autos. Meine Leidenschaft und Liebe zum Detail machen Ihre Erfahrung mit uns garantiert unvergleichlich.",
+    "authorName": "Kirill Aliev, MBA",
+    "authorRole": "CEO Trinity car rental boutique"
+  },
+  "reviews": {
+    "title": "Bewertungen"
+  },
+  "advantages": {
+    "title": "Vorteile",
+    "items": [
+      "40+ einzigartige Fahrzeuge in unserer Flotte",
+      "Lieferung und Rückgabe in Dubai rund um die Uhr",
+      "Versicherung ohne Selbstbeteiligung für jedes Fahrzeug",
+      "Keine Video- oder Audioaufnahmen im Auto",
+      "Technischer Support rund um die Uhr",
+      "Alle Modelle mit Premium-Ausstattungspaket"
+    ]
+  },
+  "brandsMarquee": {
+    "brands": ["Lexus", "Mercedes", "Audi", "BMW", "Rolls-Royce", "Cadillac", "Maserati", "Lamborghini", "Bentley", "Porsche"]
+  },
+  "discount": {
+    "title": "Bis zu 60% Rabatt sichern",
+    "text": "Erhalten Sie aktuelle Artikel und Neuigkeiten sowie wöchentliche Sonderangebote.",
+    "emailPlaceholder": "Ihre E-Mail",
+    "receive": "Abonnieren"
+  },
+  "contact": {
+    "title": "Haben Sie Fragen?",
+    "name": "Name",
+    "email": "E-Mail",
+    "phone": "+7 (999) 999 - 99 - 99",
+    "message": "Nachricht",
+    "send": "Anfrage senden"
+  },
+  "footer": {
+    "forCustomers": "Für Kunden",
+    "aboutUs": "Über uns",
+    "conditions": "Bedingungen",
+    "testimonials": "Bewertungen",
+    "articles": "Artikel",
+    "contacts": "Kontakte",
+    "carListTitle": "Fahrzeuge",
+    "suvs": "SUVs",
+    "convertibles": "Cabrios",
+    "sportsCars": "Sportwagen",
+    "premium": "Premium",
+    "coupe": "Coupé",
+    "service": "Service",
+    "yachtList": "Yachten",
+    "chauffeur": "Chauffeur",
+    "address": "24 4th St - Al Quoz - Al Quoz Industrial Area 3 - Dubai",
+    "emailPlaceholder": "Ihre E-Mail eingeben",
+    "submit": "Absenden",
+    "privacyPolicy": "Datenschutzrichtlinie",
+    "copyright": "©2023 TRINITY. Alle Rechte vorbehalten"
+  }
+}

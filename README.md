@@ -1,17 +1,36 @@
-# React + Vite
+# Задание
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Сверстать сайт сервиса аренды люксовых автомобилей **«Trinity»** (Dubai Luxury Car Rental). Сайт — одностраничный лендинг (десктоп + адаптив под планшет и мобильные устройства).
 
-Currently, two official plugins are available:
+## Страница «Главная»
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **шапка** — логотип (ромбовидная эмблема + название «TRINITY») по центру, горизонтальное меню слева (Home, About, Services и т.п.), справа — телефон, адрес/контактная строка и иконки соцсетей;
+- **hero-блок** на всю ширину с фоновым фото автомобиля/города, крупный заголовок **«Dubai»**, подзаголовок **«LUXURY CAR RENTAL»**, точки-индикаторы слайдера внизу блока;
+- блок **«Most Popular»** — крупное фото автомобиля (Lamborghini Huracan EVO) слева, справа — карточка бронирования: выбор марки, выбор модели, цена аренды в сутки (**2400$**) и кнопка-CTA (бирюзовая, «Search» / «Забронировать»);
+- блок **«Special Offers»** с табами-фильтрами вверху — сетка из карточек «фото + название авто»: **Lamborghini Urus**, **Ferrari Rental**, **Rolls-Royce Ghost**, **Porsche 911 Turbo S**, ниже — кнопка-CTA («Показать все предложения»);
+- блок **«About Us»** — три счётчика-статистики (**8 years** experience, **72 cars** in the fleet, **190 happy clients**), текстовый блок о компании/подходе к сервису, подпись с именем и должностью основателя;
+- полноширинная фотография — человек на фоне нескольких люксовых спорткаров (акцент на цветном авто), декоративный элемент/иконка поверх фото;
+- блок **«Reviews»** — горизонтальная лента/сетка из фото- и видео-отзывов клиентов (превью с кнопкой воспроизведения);
+- блок **«Advantages»** — карточки «фото + текст» (подача аналогична паре по фото ниже, изображение сверху или сбоку от текста), каждая раскрывает одно преимущество сервиса:
+  - подача авто в любую точку без ожидания;
+  - аренда без залога / упрощённые условия;
+  - страховка и премиальное сопровождение на всё время аренды;
+- блок **«Ask us anything»** — слева интерактивная карта (район Дубая), справа форма обратной связи (имя, телефон, комментарий) и кнопка отправки;
+- промо-баннер **«Get a discount of up to 60%»** с крупным текстом и оранжевой/бирюзовой кнопкой-CTA;
+- **плашка перед футером** — горизонтальное меню марок авто (Rolls-Royce, Cadillac, Lamborghini, Bentley, Porsche и т.д.), выбор модели, иконки способов оплаты, телефон и кнопка **«Get a discount»**;
+- **футер** — логотип, копирайт, иконки соцсетей и служебные ссылки.
 
-## React Compiler
+## Адаптивность
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Сайт должен быть адаптивным, для каждого блока предусмотрена мобильная версия:
 
-## Expanding the Oxlint configuration
+- **десктоп** — полноширинные блоки, «Special Offers» и «Advantages» — карточки в ряд (2–4 в ряд);
+- **планшет (iPad mini)** — сужение hero-блока, карточки «Special Offers»/«Advantages» — по 1–2 в ряд, меню сворачивается в бургер;
+- **мобильная версия** — все блоки в один стек (одна колонка): шапка с бургер-меню и телефоном, hero, «Most Popular» с формой под фото, карточки «Special Offers» в один столбец, «About Us» со счётчиками в столбец, «Reviews» и «Advantages» — карточки друг под другом, карта и форма «Ask us anything» — друг под другом, футер-плашка и футер сжимаются в компактный блок.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
-# trinity
+## Дизайн
+
+Тёмный (чёрно-графитовый) фон, контраст за счёт крупных фотографий автомобилей и локаций. Акцентный цвет — **бирюзовый/тёмно-бирюзовый** (кнопки CTA, точки-индикаторы, эмблема логотипа, активные пункты меню). Крупная лаконичная типографика для заголовков, минималистичные текстовые блоки, фото автомобилей и клиентов как основной визуальный акцент.
+
+Сверстать по макету в Figma:
+[https://www.figma.com/design/Mm76bi7B5mkTjlInvpDEOc/TRINITY--Copy-?node-id=45-2&p=f&t=aZeCCGZfCqZNjk1J-0](https://www.figma.com/design/Mm76bi7B5mkTjlInvpDEOc/TRINITY--Copy-?node-id=45-2&p=f&t=aZeCCGZfCqZNjk1J-0)

@@ -1,0 +1,221 @@
+.popular {
+  padding: 100px 0 60px;
+}
+
+.popular__grid {
+  display: grid;
+  grid-template-columns: 1.1fr 0.9fr;
+  gap: 60px;
+  align-items: stretch;
+}
+
+.popular__photo {
+  position: relative;
+  border-radius: 20px;
+  overflow: hidden;
+  min-height: 500px;
+}
+
+.popular__photo img {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.popular__photo-img {
+  animation: popular-photo-fade 0.5s ease;
+}
+
+@keyframes popular-photo-fade {
+  from {
+    opacity: 0;
+    transform: scale(1.04);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.popular__photo-caption {
+  position: relative;
+  z-index: 1;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 40px;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.65) 0%, rgba(0, 0, 0, 0) 55%);
+}
+
+.popular__photo-caption h2 {
+  font-size: clamp(24px, 2.6vw, 40px);
+  font-weight: 700;
+  max-width: 420px;
+  margin-bottom: 24px;
+}
+
+.popular__price {
+  display: flex;
+  align-items: baseline;
+  gap: 16px;
+}
+
+.popular__price-value {
+  font-size: clamp(28px, 3vw, 44px);
+  font-weight: 700;
+}
+
+.popular__price-note {
+  font-size: 14px;
+  color: var(--text-light);
+  line-height: 1.4;
+}
+
+.popular__side {
+  display: flex;
+  flex-direction: column;
+}
+
+.popular__heading {
+  font-size: clamp(32px, 3.6vw, 52px);
+  font-weight: 500;
+  margin-bottom: 32px;
+}
+
+.popular__search {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  background: var(--bg-soft);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin-bottom: 24px;
+  border: 1px solid transparent;
+  transition: border-color 0.2s;
+}
+
+.popular__search:focus-within {
+  border-color: var(--accent);
+}
+
+.popular__search img {
+  width: 22px;
+  height: 22px;
+  opacity: 0.6;
+}
+
+.popular__search input {
+  flex: 1;
+  background: none;
+  border: none;
+  outline: none;
+  color: var(--text);
+  font-size: 18px;
+}
+
+.popular__search input::placeholder {
+  color: var(--text-muted-2);
+}
+
+.popular__list-row {
+  display: flex;
+  align-items: stretch;
+  gap: 16px;
+  flex: 1;
+}
+
+.popular__nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4px 0;
+}
+
+.popular__nav button {
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  background: var(--bg-soft);
+  border: 1px solid var(--border);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background 0.2s, border-color 0.2s;
+}
+
+.popular__nav button:hover {
+  background: #262626;
+  border-color: var(--accent);
+}
+
+.popular__nav-icon {
+  width: 12px;
+  height: 8px;
+}
+
+.popular__nav-icon--up {
+  transform: rotate(-90deg);
+}
+
+.popular__nav-icon--down {
+  transform: rotate(90deg);
+}
+
+.popular__list {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  border-left: 2px solid var(--border);
+}
+
+.popular__view-all {
+  align-self: flex-start;
+  margin-top: 16px;
+  background: var(--accent);
+  color: var(--text);
+  font-weight: 700;
+  font-size: 15px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.popular__view-all:hover {
+  background: var(--accent-dark);
+}
+
+.popular__tabs {
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+  margin-top: 70px;
+  flex-wrap: wrap;
+}
+
+.popular__tabs button {
+  background: none;
+  font-size: clamp(18px, 2vw, 24px);
+  font-weight: 500;
+  color: var(--text-muted-2);
+  padding-bottom: 8px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s, border-color 0.2s;
+}
+
+.popular__tabs button:hover {
+  color: var(--text);
+}
+
+.popular__tabs button.is-active {
+  color: var(--text);
+  border-bottom-color: var(--accent);
+}
+
+@media (max-width: 960px) {
+  .popular__grid {
+    grid-template-columns: 1fr;
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "header": {
+    "nav": {
+      "cars": "Autók",
+      "yachts": "Jachtok",
+      "chauffeur": "Sofőr"
+    }
+  },
+  "hero": {
+    "title": "Dubai",
+    "subtitle": "luxusautó-kölcsönzés"
+  },
+  "popular": {
+    "heading": "Legnépszerűbb",
+    "searchPlaceholder": "Autó keresése",
+    "viewAll": "Összes megtekintése",
+    "rent": "{{name}} bérlése",
+    "rentFromAed": "Bérlés ártól, AED",
+    "perDay": "naponta",
+    "tabs": {
+      "specialOffer": "Akciós ajánlat",
+      "newCar": "Új autó",
+      "mostPopular": "Népszerű",
+      "daily": "Napi bérlés"
+    }
+  },
+  "carCatalog": {
+    "rent": "Bérlés",
+    "viewAll": "Összes megtekintése"
+  },
+  "about": {
+    "title": "Rólunk",
+    "stats": {
+      "year": "év",
+      "cars": "autó",
+      "people": "munkatárs",
+      "text": "Hosszú utat tettünk meg egy kétfős vállalkozástól a Webby-díj megnyeréséig."
+    },
+    "quote": "Több mint 18 éve foglalkozom autókkal. A szenvedélyem és a részletekre való odafigyelésem garantálja, hogy velünk páratlan élményben lesz részed.",
+    "authorName": "Kirill Aliev, MBA",
+    "authorRole": "CEO Trinity car rental boutique"
+  },
+  "reviews": {
+    "title": "Vélemények"
+  },
+  "advantages": {
+    "title": "Előnyök",
+    "items": [
+      "40+ egyedi autó a flottánkban",
+      "Kiszállítás és visszavétel Dubaiban, 0-24 órában",
+      "Önrész nélküli biztosítás minden autóra",
+      "Nincs video- vagy hangfelvétel az autóban",
+      "0-24 órás technikai támogatás",
+      "Minden modell prémium csomaggal"
+    ]
+  },
+  "brandsMarquee": {
+    "brands": ["Lexus", "Mercedes", "Audi", "BMW", "Rolls-Royce", "Cadillac", "Maserati", "Lamborghini", "Bentley", "Porsche"]
+  },
+  "discount": {
+    "title": "Akár 60% kedvezmény",
+    "text": "Kapja meg a legfrissebb cikkeket, híreket és a heti különleges ajánlatainkat.",
+    "emailPlaceholder": "E-mail címed",
+    "receive": "Feliratkozom"
+  },
+  "contact": {
+    "title": "Kérdésed van?",
+    "name": "Név",
+    "email": "E-mail",
+    "phone": "+7 (999) 999 - 99 - 99",
+    "message": "Üzenet",
+    "send": "Kérés elküldése"
+  },
+  "footer": {
+    "forCustomers": "Ügyfeleknek",
+    "aboutUs": "Rólunk",
+    "conditions": "Feltételek",
+    "testimonials": "Vélemények",
+    "articles": "Cikkek",
+    "contacts": "Kapcsolat",
+    "carListTitle": "Autók",
+    "suvs": "Terepjárók",
+    "convertibles": "Kabriók",
+    "sportsCars": "Sportautók",
+    "premium": "Prémium",
+    "coupe": "Coupé",
+    "service": "Szolgáltatás",
+    "yachtList": "Jachtok",
+    "chauffeur": "Sofőr",
+    "address": "24 4th St - Al Quoz - Al Quoz Industrial Area 3 - Dubai",
+    "emailPlaceholder": "Add meg az e-mail címed",
+    "submit": "Küldés",
+    "privacyPolicy": "Adatvédelmi irányelvek",
+    "copyright": "©2023 TRINITY. Minden jog fenntartva"
+  }
+}

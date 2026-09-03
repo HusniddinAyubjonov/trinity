@@ -1,0 +1,96 @@
+{
+  "header": {
+    "nav": {
+      "cars": "Car List",
+      "yachts": "Yacht list",
+      "chauffeur": "Chauffeur"
+    }
+  },
+  "hero": {
+    "title": "Dubai",
+    "subtitle": "luxury car rental"
+  },
+  "popular": {
+    "heading": "Most Popular",
+    "searchPlaceholder": "Car search",
+    "viewAll": "View all",
+    "rent": "Rent {{name}}",
+    "rentFromAed": "Rent is from aed",
+    "perDay": "per day",
+    "tabs": {
+      "specialOffer": "Special Offer",
+      "newCar": "New car",
+      "mostPopular": "Most popular",
+      "daily": "Daily"
+    }
+  },
+  "carCatalog": {
+    "rent": "Rent",
+    "viewAll": "View all"
+  },
+  "about": {
+    "title": "About Us",
+    "stats": {
+      "year": "year",
+      "cars": "cars",
+      "people": "people",
+      "text": "We've come a long way from a 2-people company to winning at Webby's."
+    },
+    "quote": "I'm with cars for over 18 years. My auto passion and attention to details will make your experience with us second to none. Guaranteed.",
+    "authorName": "Kirill Aliev, MBA",
+    "authorRole": "CEO Trinity car rental boutique"
+  },
+  "reviews": {
+    "title": "Reviews"
+  },
+  "advantages": {
+    "title": "Advantages",
+    "items": [
+      "40+ unique cars for rent from our fleet",
+      "Delivery and return of cars in Dubai 24/7",
+      "Insurance without a deductible for each car",
+      "No video or audio recording in the car",
+      "24/7 technical support",
+      "All models have a premium package"
+    ]
+  },
+  "brandsMarquee": {
+    "brands": ["Lexus", "Mercedes", "Audi", "BMW", "Rolls-Royce", "Cadillac", "Maserati", "Lamborghini", "Bentley", "Porsche"]
+  },
+  "discount": {
+    "title": "Get a discount of up to 60%",
+    "text": "Get the latest articles and business updates that you need to know, you'll even get special recommendations weekly.",
+    "emailPlaceholder": "Your email",
+    "receive": "Receive"
+  },
+  "contact": {
+    "title": "Ask us anything",
+    "name": "Name",
+    "email": "E-mail",
+    "phone": "+7 (999) 999 - 99 - 99",
+    "message": "Message",
+    "send": "Send the request"
+  },
+  "footer": {
+    "forCustomers": "For Customers",
+    "aboutUs": "About Us",
+    "conditions": "Conditions",
+    "testimonials": "Testimonials",
+    "articles": "Articles",
+    "contacts": "Contacts",
+    "carListTitle": "Car List",
+    "suvs": "SUVs",
+    "convertibles": "Convertibles",
+    "sportsCars": "Sports Cars",
+    "premium": "Premium",
+    "coupe": "Coupe",
+    "service": "Service",
+    "yachtList": "Yacht list",
+    "chauffeur": "Chauffeur",
+    "address": "24 4th St - Al Quoz - Al Quoz Industrial Area 3 - Dubai",
+    "emailPlaceholder": "Write your E-mail",
+    "submit": "Submit",
+    "privacyPolicy": "Privacy Policy",
+    "copyright": "©2023 TRINITY. All rights reserved"
+  }
+}
