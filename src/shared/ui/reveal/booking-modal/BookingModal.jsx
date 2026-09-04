@@ -1,7 +1,9 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./BookingModal.css";
 
 export default function BookingModal({ car, onClose }) {
+  const { t } = useTranslation();
   const [step, setStep] = useState(1);
   const [form, setForm] = useState({
     startDate: "",
@@ -34,13 +36,13 @@ export default function BookingModal({ car, onClose }) {
           <span className={`progress-dot ${step >= 3 ? "active" : ""}`}></span>
         </div>
 
-        <h3 className="modal-title">Бронирование: {car?.name}</h3>
+        <h3 className="modal-title">{t("booking.title", { name: car?.name })}</h3>
 
         {/* ШАГ 1: Даты */}
         {step === 1 && (
           <div className="modal-step">
-            <p className="step-label">Шаг 1 из 3: Даты аренды</p>
-            <label>Начало аренды</label>
+            <p className="step-label">{t("booking.step1Of3")}</p>
+            <label>{t("booking.startDate")}</label>
             <input
               className="input-field"
               type="date"
@@ -49,7 +51,7 @@ export default function BookingModal({ car, onClose }) {
               onChange={update}
             />
 
-            <label>Конец аренды</label>
+            <label>{t("booking.endDate")}</label>
             <input
               className="input-field"
               type="date"
@@ -60,7 +62,7 @@ export default function BookingModal({ car, onClose }) {
 
             <div className="modal-actions">
               <button className="btn-primary" onClick={nextStep}>
-                Далее
+                {t("booking.next")}
               </button>
             </div>
           </div>
@@ -69,11 +71,11 @@ export default function BookingModal({ car, onClose }) {
         {/* ШАГ 2: Контакты */}
         {step === 2 && (
           <div className="modal-step">
-            <p className="step-label">Шаг 2 из 3: Контактные данные</p>
+            <p className="step-label">{t("booking.step2Of3")}</p>
             <input
               className="input-field"
               type="text"
-              placeholder="Ваше имя"
+              placeholder={t("booking.yourName")}
               name="name"
               value={form.name}
               onChange={update}
@@ -82,7 +84,7 @@ export default function BookingModal({ car, onClose }) {
             <input
               className="input-field"
               type="tel"
-              placeholder="+7 (999) 999-99-99"
+              placeholder={t("booking.phonePlaceholder")}
               name="phone"
               value={form.phone}
               onChange={update}
@@ -91,7 +93,7 @@ export default function BookingModal({ car, onClose }) {
             <input
               className="input-field"
               type="email"
-              placeholder="Email"
+              placeholder={t("booking.emailPlaceholder")}
               name="email"
               value={form.email}
               onChange={update}
@@ -99,10 +101,10 @@ export default function BookingModal({ car, onClose }) {
 
             <div className="modal-actions">
               <button className="btn-secondary" onClick={prevStep}>
-                Назад
+                {t("booking.back")}
               </button>
               <button className="btn-primary" onClick={nextStep}>
-                Далее
+                {t("booking.next")}
               </button>
             </div>
           </div>
@@ -111,38 +113,38 @@ export default function BookingModal({ car, onClose }) {
         {/* ШАГ 3: Документы и подача */}
         {step === 3 && (
           <div className="modal-step">
-            <p className="step-label">Шаг 3 из 3: Документы и подача</p>
+            <p className="step-label">{t("booking.step3Of3")}</p>
             <input
               className="input-field"
               type="text"
-              placeholder="Номер водительского удостоверения"
+              placeholder={t("booking.licensePlaceholder")}
               name="license"
               value={form.license}
               onChange={update}
             />
 
-            <label>Способ получения авто:</label>
+            <label>{t("booking.deliveryMethod")}</label>
             <div className="delivery-options">
               <button
                 className={`btn-secondary ${form.delivery === "pickup" ? "is-active" : ""}`}
                 onClick={() => setForm({ ...form, delivery: "pickup" })}
               >
-                Самовывоз
+                {t("booking.pickup")}
               </button>
               <button
                 className={`btn-secondary ${form.delivery === "delivery" ? "is-active" : ""}`}
                 onClick={() => setForm({ ...form, delivery: "delivery" })}
               >
-                Подача в Дубае 24/7
+                {t("booking.delivery")}
               </button>
             </div>
 
             <div className="modal-actions">
               <button className="btn-secondary" onClick={prevStep}>
-                Назад
+                {t("booking.back")}
               </button>
               <button className="btn-primary" onClick={() => setStep(4)}>
-                Проверить данные
+                {t("booking.reviewData")}
               </button>
             </div>
           </div>
@@ -151,20 +153,25 @@ export default function BookingModal({ car, onClose }) {
         {/* ШАГ 4: Подтверждение */}
         {step === 4 && (
           <div className="modal-step modal-success">
-            <h4>Заявка принята!</h4>
-            <p>Мы получили ваши данные и свяжемся с вами в течение 15 минут.</p>
+            <h4>{t("booking.successTitle")}</h4>
+            <p>{t("booking.successText")}</p>
             <div className="modal-summary">
-              <span>Авто: {car?.name}</span>
               <span>
-                Даты: {form.startDate} — {form.endDate}
+                {t("booking.car")}: {car?.name}
               </span>
-              <span>Клиент: {form.name}</span>
               <span>
-                Тип: {form.delivery === "pickup" ? "Самовывоз" : "Подача"}
+                {t("booking.dates")}: {form.startDate} — {form.endDate}
+              </span>
+              <span>
+                {t("booking.client")}: {form.name}
+              </span>
+              <span>
+                {t("booking.type")}:{" "}
+                {form.delivery === "pickup" ? t("booking.pickup") : t("booking.delivery")}
               </span>
             </div>
             <button className="btn-primary" onClick={onClose}>
-              Отлично, закрыть
+              {t("booking.greatClose")}
             </button>
           </div>
         )}

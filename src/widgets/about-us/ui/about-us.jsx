@@ -2,7 +2,7 @@ import { useTranslation } from 'react-i18next'
 import { Reveal } from '../../../shared/ui/reveal'
 import { useInView } from '../../../shared/lib/use-in-view'
 import { useCountUp } from '../../../shared/lib/use-count-up'
-import aboutBg from '../../../shared/assets/img/about_us_bg.png'
+import aboutBg from '../../../shared/assets/img/about_us_bg.jpg'
 import './about-us.css'
 
 const STAT_VALUES = [

@@ -18,6 +18,7 @@
     "rentFromAed": "Miete ab, AED",
     "perDay": "pro Tag",
     "tabs": {
+      "all": "Alle",
       "specialOffer": "Sonderangebot",
       "newCar": "Neuwagen",
       "mostPopular": "Beliebt",
@@ -41,7 +42,25 @@
     "authorRole": "CEO Trinity car rental boutique"
   },
   "reviews": {
-    "title": "Bewertungen"
+    "title": "Bewertungen",
+    "items": [
+      {
+        "name": "Alexander",
+        "text": "Bester Mietservice! Das Auto wurde pünktlich in einwandfreiem Zustand geliefert."
+      },
+      {
+        "name": "Dmitri",
+        "text": "Habe einen Lamborghini fürs Wochenende gemietet. Der Buchungsprozess dauerte nur 5 Minuten!"
+      },
+      {
+        "name": "Maria",
+        "text": "Toll, dass es keine Kameras oder Überwachung im Auto gab. Vollständige Privatsphäre."
+      },
+      {
+        "name": "Sergej",
+        "text": "Tolle Auswahl an Premiumautos. Faire Preise, Support antwortet rund um die Uhr."
+      }
+    ]
   },
   "advantages": {
     "title": "Vorteile",
@@ -55,7 +74,18 @@
     ]
   },
   "brandsMarquee": {
-    "brands": ["Lexus", "Mercedes", "Audi", "BMW", "Rolls-Royce", "Cadillac", "Maserati", "Lamborghini", "Bentley", "Porsche"]
+    "brands": [
+      "Lexus",
+      "Mercedes",
+      "Audi",
+      "BMW",
+      "Rolls-Royce",
+      "Cadillac",
+      "Maserati",
+      "Lamborghini",
+      "Bentley",
+      "Porsche"
+    ]
   },
   "discount": {
     "title": "Bis zu 60% Rabatt sichern",
@@ -69,7 +99,9 @@
     "email": "E-Mail",
     "phone": "+7 (999) 999 - 99 - 99",
     "message": "Nachricht",
-    "send": "Anfrage senden"
+    "send": "Anfrage senden",
+    "successMessage": "Anfrage gesendet!",
+    "errorMessage": "Bitte Name und E-Mail ausfüllen"
   },
   "footer": {
     "forCustomers": "Für Kunden",
@@ -92,5 +124,34 @@
     "submit": "Absenden",
     "privacyPolicy": "Datenschutzrichtlinie",
     "copyright": "©2023 TRINITY. Alle Rechte vorbehalten"
+  },
+  "newsletter": {
+    "invalidEmail": "Bitte gültige E-Mail eingeben",
+    "success": "Abonnement bestätigt!"
+  },
+  "booking": {
+    "title": "Buchung: {{name}}",
+    "step1Of3": "Schritt 1 von 3: Mietdaten",
+    "startDate": "Mietbeginn",
+    "endDate": "Mietende",
+    "next": "Weiter",
+    "step2Of3": "Schritt 2 von 3: Kontaktdaten",
+    "yourName": "Ihr Name",
+    "phonePlaceholder": "+49 (999) 999-99-99",
+    "emailPlaceholder": "E-Mail",
+    "back": "Zurück",
+    "step3Of3": "Schritt 3 von 3: Dokumente & Absenden",
+    "licensePlaceholder": "Führerscheinnummer",
+    "deliveryMethod": "Abholart:",
+    "pickup": "Selbstabholung",
+    "delivery": "Lieferung in Dubai rund um die Uhr",
+    "reviewData": "Angaben prüfen",
+    "successTitle": "Anfrage angenommen!",
+    "successText": "Wir haben Ihre Daten erhalten und melden uns innerhalb von 15 Minuten.",
+    "car": "Auto",
+    "dates": "Termine",
+    "client": "Kunde",
+    "type": "Art",
+    "greatClose": "Super, schließen"
   }
 }

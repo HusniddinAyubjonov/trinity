@@ -59,10 +59,10 @@ export default function ContactRequestForm() {
       />
 
       {status === "success" && (
-        <p style={{ color: "var(--accent)" }}>Заявка отправлена!</p>
+        <p style={{ color: "var(--accent)" }}>{t("contact.successMessage")}</p>
       )}
       {status === "error" && (
-        <p style={{ color: "red" }}>Заполните имя и email</p>
+        <p style={{ color: "red" }}>{t("contact.errorMessage")}</p>
       )}
 
       <button type="submit" className="btn-primary">

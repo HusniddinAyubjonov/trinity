@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import "./subscribe-form.css";
 
 export default function SubscribeForm({
@@ -6,17 +7,18 @@ export default function SubscribeForm({
   buttonText = "Receive",
   variant = "default",
 }) {
+  const { t } = useTranslation();
   const [email, setEmail] = useState("");
   const [error, setError] = useState("");
 
   const handleSubmit = (e) => {
     e.preventDefault();
     if (!/\S+@\S+\.\S+/.test(email)) {
-      setError("Please enter a valid email");
+      setError(t("newsletter.invalidEmail"));
       return;
     }
     setError("");
-    alert("Подписка оформлена!");
+    alert(t("newsletter.success"));
     setEmail("");
   };
 

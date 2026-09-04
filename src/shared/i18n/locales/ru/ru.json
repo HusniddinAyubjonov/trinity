@@ -18,6 +18,7 @@
     "rentFromAed": "Аренда от, aed",
     "perDay": "в сутки",
     "tabs": {
+      "all": "Все",
       "specialOffer": "Спецпредложение",
       "newCar": "Новые авто",
       "mostPopular": "Популярные",
@@ -41,7 +42,25 @@
     "authorRole": "CEO Trinity car rental boutique"
   },
   "reviews": {
-    "title": "Отзывы"
+    "title": "Отзывы",
+    "items": [
+      {
+        "name": "Александр",
+        "text": "Лучший сервис аренды! Машина была подана точно в срок, состояние идеальное."
+      },
+      {
+        "name": "Дмитрий",
+        "text": "Брал Lamborghini на выходные. Очень удобный процесс оформления, всего 5 минут!"
+      },
+      {
+        "name": "Мария",
+        "text": "Понравилось, что в машине не было камер и слежки. Полная приватность."
+      },
+      {
+        "name": "Сергей",
+        "text": "Отличный выбор премиальных авто. Цены честные, поддержка отвечает 24/7."
+      }
+    ]
   },
   "advantages": {
     "title": "Преимущества",
@@ -55,7 +74,18 @@
     ]
   },
   "brandsMarquee": {
-    "brands": ["Lexus", "Mercedes", "Audi", "BMW", "Rolls-Royce", "Cadillac", "Maserati", "Lamborghini", "Bentley", "Porsche"]
+    "brands": [
+      "Lexus",
+      "Mercedes",
+      "Audi",
+      "BMW",
+      "Rolls-Royce",
+      "Cadillac",
+      "Maserati",
+      "Lamborghini",
+      "Bentley",
+      "Porsche"
+    ]
   },
   "discount": {
     "title": "Скидка до 60%",
@@ -69,7 +99,9 @@
     "email": "E-mail",
     "phone": "+7 (999) 999 - 99 - 99",
     "message": "Сообщение",
-    "send": "Отправить заявку"
+    "send": "Отправить заявку",
+    "successMessage": "Заявка отправлена!",
+    "errorMessage": "Заполните имя и email"
   },
   "footer": {
     "forCustomers": "Клиентам",
@@ -92,5 +124,34 @@
     "submit": "Отправить",
     "privacyPolicy": "Политика конфиденциальности",
     "copyright": "©2023 TRINITY. Все права защищены"
+  },
+  "newsletter": {
+    "invalidEmail": "Введите корректный email",
+    "success": "Подписка оформлена!"
+  },
+  "booking": {
+    "title": "Бронирование: {{name}}",
+    "step1Of3": "Шаг 1 из 3: Даты аренды",
+    "startDate": "Начало аренды",
+    "endDate": "Конец аренды",
+    "next": "Далее",
+    "step2Of3": "Шаг 2 из 3: Контактные данные",
+    "yourName": "Ваше имя",
+    "phonePlaceholder": "+7 (999) 999-99-99",
+    "emailPlaceholder": "Email",
+    "back": "Назад",
+    "step3Of3": "Шаг 3 из 3: Документы и подача",
+    "licensePlaceholder": "Номер водительского удостоверения",
+    "deliveryMethod": "Способ получения авто:",
+    "pickup": "Самовывоз",
+    "delivery": "Подача в Дубае 24/7",
+    "reviewData": "Проверить данные",
+    "successTitle": "Заявка принята!",
+    "successText": "Мы получили ваши данные и свяжемся с вами в течение 15 минут.",
+    "car": "Авто",
+    "dates": "Даты",
+    "client": "Клиент",
+    "type": "Тип",
+    "greatClose": "Отлично, закрыть"
   }
 }
